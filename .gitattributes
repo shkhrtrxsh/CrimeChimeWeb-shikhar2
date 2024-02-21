@@ -1,0 +1,23 @@
+
+src/assets/fonts/adelle-sans-thin.otf filter=lfs diff=lfs merge=lfs -text
+src/assets/fonts/AdelleSansDEV-Thin.otf filter=lfs diff=lfs merge=lfs -text
+src/assets/images/ak2.png filter=lfs diff=lfs merge=lfs -text
+src/assets/images/others2.png filter=lfs diff=lfs merge=lfs -text
+src/assets/images/perps.png filter=lfs diff=lfs merge=lfs -text
+src/assets/images/pistol.jpg filter=lfs diff=lfs merge=lfs -text
+src/assets/images/pistol.png filter=lfs diff=lfs merge=lfs -text
+src/assets/images/pistol2.png filter=lfs diff=lfs merge=lfs -text
+src/assets/images/unavailable.svg filter=lfs diff=lfs merge=lfs -text
+
+* text=auto
+
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
+

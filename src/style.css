@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Adele';
+    /* src: url('./assets/fonts/AdelleSansDEV-Thin.otf') format('opentype'); */
+  }
+.pac-container{
+    z-index: 100000
+}
+.map-label{
+  margin-top:-32px;
+  background-color:#ffe600;
+  width:20px;
+  height:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+}
